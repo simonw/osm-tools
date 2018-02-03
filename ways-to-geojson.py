@@ -65,7 +65,7 @@ def ways_to_geojson(ids, precision=2):
                 swlat = pt[1]                
 
             if swlon:
-                swlon = min(swlat, pt[0])
+                swlon = min(swlon, pt[0])
             else:
                 swlon = pt[0]   
 
